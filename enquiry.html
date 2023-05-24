@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry</title>
+</head>
+
+<body>
+
+  <style>
+    * {
+
+      margin: 0;
+      padding: 0;
+    }
+
+
+
+    body {
+      background-image: url("img6.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-size: 50px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    .container {
+      width: 70%;
+      margin: 50px auto;
+    }
+   .contact-box{
+    background-color: rgba(83, 82, 82, 0.3);
+     display:flex;
+     
+   }
+.contact-left{
+  flex-basis:50%;
+  padding:40px 60px;
+
+}
+.contact-right{
+
+  flex-basis:50%;
+  padding:50px;
+  background-color: rgba(0, 0, 155, 0.679);
+  color: white;
+
+}
+h1{
+  margin-bottom: 30px;
+}
+.container p{
+  margin-bottom: 80px;
+}
+.input-row{
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.input-row.input-group{
+  flex-basis:45%;
+}
+input{
+  width:100%;
+  border: none;
+  border-bottom: 1px solid #000000; 
+  outline: none;
+  padding-bottom: 60px;
+  margin: 20px;
+
+}
+
+textarea{
+
+
+  width:100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+label{
+ margin-bottom: 6px;
+ display: block;
+ color: #1c001c;
+}
+
+::placeholder{
+
+  font-size: 20px;
+  font-weight: bolder;
+}
+button{
+  background-color:rgb(2, 2, 98) ;
+  width: 250px;
+  border: none;
+  height: 80px ;
+  color: white;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+.contact-left h3{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+margin-bottom: 30px;
+
+}
+
+.contact-right h3{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+margin-bottom: 30px;
+}
+
+
+tr td:first-child{
+  padding-right: 30px;
+  align-items: left;
+}
+tr td{
+
+  padding-top: 30px;
+  align-items: right;
+
+}
+
+
+
+
+  </style>
+
+
+
+
+
+
+  <div class="container">
+    <h1>Connect with us</h1>
+    <p>We would love to respond to your queries and help you succeed. </p>
+<div class="contact-box">
+  <div class="contact-left">
+    <h3> sent your request</h3>
+
+<form>
+<div class="input-row">
+  <div class="input-group">
+    <label> your Name</label>
+    <input type="text" placeholder="enter your name">
+  </div>
+  <div class="input-group">
+    <label> Contact No.</label>
+    <input type="text" placeholder="enter your contact Number">
+  </div>
+</div>
+
+<div class="input-row">
+  <div class="input-group">
+    <label> your email</label>
+    <input type="email" placeholder="enter your email">
+  </div>
+  <div class="input-group">
+    <label> subject</label>
+    <input type="text" placeholder="product demo">
+  </div>
+</div>
+
+<label >message</label>
+<textarea  rows="5" placeholder="your message"></textarea>
+
+<button type="Submit"> Send</button>
+
+</form>
+
+  </div>
+
+  <div class="contact-right">
+    <h3>Reach us</h3>
+
+    <table>
+      <tr>
+        <td>Email - </td>
+        <td>abc@gmail.com</td>
+      </tr>
+      <br>
+      <tr>
+        <td>phone - </td>
+        <td>+1234 567 89</td>
+        
+      </tr>
+  
+      <tr>
+        <td>Addres -</td>
+        <td>Lorem ipsum, dolor sit amet consectetur adip<br></td>
+      </tr>
+
+
+
+    </table>
+</div>
+</div>
+</div>
+
+
+
+</body>
+
+</html>
